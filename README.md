@@ -44,7 +44,7 @@ tcprecv 192.168.1.100 5000 | your_program
 ### Receive from remote nmux server
 ```bash
 # Connect to nmux on remote SDR server
-tcprecv 192.168.1.50 4950 | baudline -stdin -format s16 -channels 2 -samplerate 48000 -run
+tcprecv 192.168.1.50 5000 | baudline -stdin -format s16 -channels 1 -samplerate 48000 -run
 ```
 
 ## Requirements
