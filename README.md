@@ -3,7 +3,6 @@
 A simple TCP client that receives binary data and outputs it to stdout.
 
 **Author:** Edson Pereira, PY2SDR  
-**Version:** 1.00
 
 ## Description
 
